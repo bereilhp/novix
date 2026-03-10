@@ -1,0 +1,7 @@
+{
+  "method": "GET",
+  "url": "https://swapi.dev/api/people/3/",
+  "headers": {
+    "Content-Type": "application/json"
+  }
+}

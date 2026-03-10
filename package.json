@@ -1,0 +1,24 @@
+{
+  "name": "novix",
+  "version": "1.0.0",
+  "description": "Script and trigger API requests from the command line.",
+  "keywords": ["api", "cli", "http", "rest", "script", "request"],
+  "homepage": "https://github.com/bereilhp/novix#readme",
+  "bugs": {
+    "url": "https://github.com/bereilhp/novix/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bereilhp/novix.git"
+  },
+  "license": "MIT",
+  "author": "bereilhp",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "novix": "src/index.js"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  }
+}
